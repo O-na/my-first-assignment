@@ -115,3 +115,27 @@ justify-content: center;
   .D{
     background-color:#E6E6FA.
   }
+.tb {
+    text-align: center;         /* centers all inline and inline-block elements */
+    padding: 40px 20px;
+}
+
+.tb h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+ p {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.tb .pr {
+    margin-bottom: 30px; 
+    
+}
+p{
+    text-align: center;
+}
+         
