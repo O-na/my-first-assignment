@@ -1,0 +1,47 @@
+/* Nav container flex for horizontal layout */
+nav {
+    display: flex;
+    justify-content: space-between; /* space between logo and button */
+    align-items: center;            /* vertically center */
+    padding: 10px;
+    margin: 20px 40px;
+}
+
+/* Logo text styling */
+.logo {
+    font-family: "Merriweather", serif;
+    font-weight: bold;       /* set font weight */
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-size: 40px;
+    color: #6347ff;
+}
+
+/* Color span inside logo */
+#color {
+    color: #6347ff;
+}
+
+/* Button style */
+.pr, button {
+    padding: 8px 16px;
+    background-color: #6347ff;
+    color: white;
+    border: 2px solid #6347ff;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* .abba section styling */
+.abba {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 40px;
+}
+
+.nahid{
+    background-image: url(Hero-bg.png);
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
