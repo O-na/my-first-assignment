@@ -28,9 +28,11 @@ nav {
     background-color: #6347ff;
     color: white;
     border: 2px solid #6347ff;
-    cursor: pointer;
+
     border-radius: 5px;
     font-size: 16px;
+    margin-bottom: 40px;
+    margin-top: 15px;
 }
 
 /* .abba section styling */
@@ -43,5 +45,73 @@ nav {
 .nahid{
     background-image: url(Hero-bg.png);
     background-repeat: no-repeat;
-    margin-bottom: 20px;
+    
 }
+.dadu  {
+    display: flex;
+    margin: 40px 80px;
+    justify-content: space-between;
+}
+.bhai{
+    margin: 20px;
+}
+img{
+    border-radius: 15px;
+}
+h1{
+    text-align: center;
+}
+.nayem{
+    display: flex;
+justify-content: center;
+
+}
+.t{
+    background-color:#E6E6FA;
+    margin: 10px 60px;
+    border-radius: 15px;    
+}
+
+
+  .stats-wrapper {
+  background-color: #e6e9ff;
+  padding: 30px 20px;
+  border: 2px dotted #4e9eff;
+  border-radius: 10px;
+  max-width: 700px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.stats-wrapper h2 {
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #1c1c1c;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+}
+
+.stat-box {
+  text-align: center;
+}
+
+.stat-number {
+  font-size: 32px;
+  color: #6347ff;
+  font-weight: bold;
+  margin: 0;
+}
+
+.stat-label {
+  font-size: 14px;
+  color: #888;
+  margin-top: 5px;
+}
+  .D{
+    background-color:#E6E6FA.
+  }
