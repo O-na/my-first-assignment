@@ -1,8 +1,8 @@
-/* Nav container flex for horizontal layout */
+
 nav {
     display: flex;
-    justify-content: space-between; /* space between logo and button */
-    align-items: center;            /* vertically center */
+    justify-content: space-between;
+    align-items: center;            
     padding: 10px;
     margin: 20px 40px;
 }
@@ -10,14 +10,14 @@ nav {
 /* Logo text styling */
 .logo {
     font-family: "Merriweather", serif;
-    font-weight: bold;       /* set font weight */
+    font-weight: bold;      
     font-style: normal;
     font-variation-settings: "wdth" 100;
     font-size: 40px;
     color: #6347ff;
 }
 
-/* Color span inside logo */
+
 #color {
     color: #6347ff;
 }
@@ -28,13 +28,17 @@ nav {
     background-color: #6347ff;
     color: white;
     border: 2px solid #6347ff;
-
     border-radius: 5px;
     font-size: 16px;
     margin-bottom: 40px;
     margin-top: 15px;
 }
 
+.pr:hover, button:hover {
+    background-color: green;
+    border-color: #513dd6;
+    cursor: pointer;
+}
 /* .abba section styling */
 .abba {
     text-align: center;
@@ -123,4 +127,134 @@ justify-content: center;
 h1 {
   font-size: 36px;
   margin-bottom: 10px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+}
+
+.contact-text {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.form-container {
+    background: #f6f9fc;
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 400px;
+    /* control width here */
+    width: 100%;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container input,
+.form-container textarea,
+.form-container button {
+    width: 100;
+    /* make all same width inside container */
+    box-sizing: border-box;
+    /* prevent padding from adding extra width */
+}
+
+.form-container input,
+.form-container textarea {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    resize: vertical;
+}
+
+.form-container button {
+    background-color: #4d4df9;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-container button:hover {
+    background-color:tomato;
+}
+.zini{
+  margin: 50px 40px;
+  background-color:#E6F0FA;
+  border: 20px;
+}
+footer {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;     
+    max-width: 800px;      
+    margin: 0 auto;      
+    padding: 20px;
+}
+
+.footer-container h1 {
+    color: #4d4df9;
+    margin: 0 0 10px;      
+    font-size: 3rem;       
+    font-weight: 700;      
+}
+
+.footer-container p {
+    color: #555;
+    margin: 0 0 15px;     
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.footer-container nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #555;
+    font-size: 0.95rem;
+    transition: color 0.3s;
+    }
+    nav a {
+    text-decoration: none;
+    color: #4d4df9;
+    font-weight: 600;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+nav a:hover::after {
+    content: attr(href);
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);  /* i took help from AI */
+    background-color:tomato;
+    padding: 8px 12px;
+    border: 1px solid #4d4df9;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
 }
