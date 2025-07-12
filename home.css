@@ -1,17 +1,5 @@
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;            
-    padding: 10px;
-    margin: 20px 40px;
-}
-
-/* Logo text styling */
-.logo {
-    font-family: "Merriweather", serif;
-    font-weight: bold;      
-    font-style: normal;
+nnt-style: normal;
     font-variation-settings: "wdth" 100;
     font-size: 40px;
     color: #6347ff;
@@ -248,7 +236,7 @@ nav a:hover::after {
     position: absolute;
     bottom: -30px;
     left: 50%;
-    transform: translateX(-50%);  /* i took help from AI */
+    transform: translateX(-50%);                     /* i took help from AI, GOOGLE, YOU TUBE  */
     background-color:tomato;
     padding: 8px 12px;
     border: 1px solid #4d4df9;
@@ -257,4 +245,16 @@ nav a:hover::after {
     white-space: nowrap;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     z-index: 1;
+}av {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;            
+    padding: 10px;
+    margin: 20px 40px;
 }
+
+/* Logo text styling */
+.logo {
+    font-family: "Merriweather", serif;
+    font-weight: bold;      
+    fo
